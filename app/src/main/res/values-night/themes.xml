@@ -1,0 +1,7 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="App.Theme" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primary_200</item>
+    </style>
+</resources>

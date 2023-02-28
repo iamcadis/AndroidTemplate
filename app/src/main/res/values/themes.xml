@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="App.Theme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_500</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.apps.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/login"
+            app:destination="@id/login_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.apps.ui.login.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/forgot"
+            app:destination="@id/forgot_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forgot_fragment"
+        android:name="com.apps.ui.forgot.ForgotFragment"
+        tools:layout="@layout/fragment_forgot">
+        <action
+            android:id="@+id/reset"
+            app:destination="@id/reset_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reset_fragment"
+        android:name="com.apps.ui.reset.ResetFragment"
+        tools:layout="@layout/fragment_reset">
+        <action
+            android:id="@+id/login"
+            app:destination="@id/login_fragment"
+            app:popUpTo="@id/login_fragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="extra_small">4dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">12dp</dimen>
+    <dimen name="large">16dp</dimen>
+    <dimen name="extra_large">28dp</dimen>
+    <!-- Font size -->
+    <dimen name="text_subhead">18sp</dimen>
+    <!-- For specific components -->
+    <dimen name="height_of_login_illustration">125dp</dimen>
+    <dimen name="height_btn">52dp</dimen>
+</resources>
